@@ -24,7 +24,7 @@ export default function App() {
   }, [contacts]);
 
 
-  const addContact = ({ name, number }) => {
+  const addContact = (name, number) => {
     const contact = {
       id: uuidv4(),
       name,
