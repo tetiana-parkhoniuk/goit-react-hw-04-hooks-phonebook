@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.formLabel {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.formInput {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 30px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.submitBtn {
+  width: 150px;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: darkgrey;
+  cursor: pointer;
+}
+
+.submitBtn:hover,
+.submitBtn:focus {
+  background-color: royalblue;
+  color: white;
+}

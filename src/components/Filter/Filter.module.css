@@ -1,0 +1,16 @@
+.filterContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
